@@ -1,0 +1,19 @@
+.portal{
+    display: grid;
+    place-items: center;
+}
+
+.portal form{
+    background-color: #fcfcfc;
+    width: min(100%, 1000px);
+    padding: 100px;
+    gap: 0.5rem; /*Separacion de parrafos*/
+    border-radius: 10px;
+}
+
+.space {
+    width: 4px;
+    height: auto;
+    display: inline-block;
+  }
+  

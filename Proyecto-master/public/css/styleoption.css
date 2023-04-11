@@ -1,0 +1,40 @@
+.select .col {
+  position: relative;
+  height: 45px;
+  width: 100%; }
+  .select .col:before {
+    content: '';
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    width: 30px;
+    /*background: #dce2e6;*/
+    background:#d2d6d9;
+    pointer-events: none; }
+  .select .col:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 0;
+    right: 10px;
+    bottom: 0;
+    margin: auto;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #fff transparent transparent transparent;
+    pointer-events: none; }
+  .select .col select {
+    font: 16px/1.6 "Roboto", sans-serif;
+    background: #dce2e6;
+    color: #333;
+    border: 1px solid #dce2e6;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    padding: 0 35px 0 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; }
+
